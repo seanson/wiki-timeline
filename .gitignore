@@ -1,0 +1,6 @@
+.cache/
+.vscode/
+.editorconfig
+.flake8
+**/*.pyc
+
