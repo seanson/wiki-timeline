@@ -1,0 +1,8 @@
+.cache/
+.vscode/
+.editorconfig
+.flake8
+timeline-frontend/
+scraper/
+**/*.pyc
+
