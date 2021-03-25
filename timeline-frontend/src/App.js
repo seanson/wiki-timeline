@@ -11,13 +11,17 @@ function App() {
       width: "100vw",
       height: "100vh",
       zoomMin: 10000000000,
-      start: "1300-01-01",
+      start: "1312-01-01",
       min: "1300-01-01",
-      max: "1400-12-31",
+      max: "1325-12-31",
       showCurrentTime: false,
+      showTooltips: false,
+      selectable: false,
+      // showMinorLabels: false,
+      verticalScroll: true,
       stack: true
     },
-    items: data.data["1300"]
+    items: data.data["1300"].slice(0, 100)
   };
 
   // let items = [
